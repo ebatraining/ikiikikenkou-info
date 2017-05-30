@@ -16,21 +16,32 @@ body {
   height:auto !important; /*IE6対策*/
   height: 100%; /*IE6対策*/
   min-height: 100%;
+  background: url(../img/back2.jpg) no-repeat;
+  background-attachment: fixed;
 }
 
 img{
 	border:0;
 }
 
+header img.main{
+  margin:3% 0% 1% 22%;
+  width:56%;
+}
+
+img.sns{
+  margin:1%;
+}
+
 #top{
-	background: url(../img/back2.jpg) no-repeat;
+	
 	width: 100%;
 	height: auto;
 	clear: both;
   background-size: cover;
   padding-bottom: 10px;
   margin-top:-20px;
-  background-attachment: fixed;
+  
 }
 
 .textline {
