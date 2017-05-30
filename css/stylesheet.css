@@ -5,8 +5,7 @@ html,body{
 
 body {
   font-family: "ヒラギノ角ゴ Pro W3","ゴシック","メイリオ";
-  margin-right: auto;
-  margin-left : auto;
+  margin:0;
 }
 
 .wrapper{
